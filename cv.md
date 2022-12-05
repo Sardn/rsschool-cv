@@ -52,8 +52,7 @@ There is no commercial development experience at the moment
 * Yandex Practicum basic lessons. Hexlet
 * YouTube and Telegram channels
 ***
-##Languages
+## Languages
 * russian
 * english entry level
 
-https://Sardn.github.io/rsschool-cv/cv
