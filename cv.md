@@ -44,7 +44,8 @@ result: 12
 There is no commercial development experience at the moment
 
 ## Education
-### University Russian Professional Pedagogical University. Faculty of Social Work.
+### University 
+Russian Professional Pedagogical University. Faculty of Social Work.
 ### Courses:
 * HTML Academy
 * GLO Academy
