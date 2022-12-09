@@ -37,7 +37,7 @@ main {
     display: flex;
 }
 
-img {
+.myPhoto {
     width: 250px;
     border-radius: 50%;
     box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5)
@@ -94,4 +94,11 @@ li {
  .graduation3{
     width:20%;
  }
- 
+ footer{
+    margin: 0 auto;
+    padding: 20px;
+    border-top: solid 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
