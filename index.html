@@ -16,12 +16,25 @@
 
 <body>
     <header>
-        <h1>Abyzov Aleksander</h1>
-        <p>Junior Frontend Developer</p>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Educaton</a></li>
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Pro skills</a></li>
+                  <li class="nav-item"><a href="#lang" class="nav-link">Languages</a></li>
+                </ul>
+              </nav>
+        </div>
     </header>
-    <div class="container">
-        <main>
-            <div class="about">
+    <main>
+        <div class="title">
+            <h1>Abyzov Aleksander</h1>
+            <p>Junior Frontend Developer</p>
+        </div>
+        <div class="container main-container">
+            <div class="about" id="about">
                 <h2>About Me</h2>
                 <p class="aboutMe">Hi! I am a beginner Frontend developer. Ready to work in an office in Yekaterinburg
                     or remotely. He
@@ -36,7 +49,7 @@
                     seriously and thoroughly. I like working in a team. I like to share experiences. I love development
                     and
                     self-improvement. My goal is to become a great developer, a professional in my field.</p>
-                <h2>Education</h2>
+                <h2 id="education">Education</h2>
                 <h3>University</h3>
                 <p>Russian Professional Pedagogical University. Faculty of Social Work.</p>
                 <h3>Courses</h3>
@@ -49,7 +62,7 @@
                     <li>Hexlet</li>
                 </ul>
 
-                <h2>Contacts</h2>
+                <h2 id="contacts"">Contacts</h2>
                 <ul>
                     <li>Phone: +79122617121</li>
                     <li>Telegram: <a href="#">@Sard_n</a></li>
@@ -59,7 +72,7 @@
                 </ul>
             </div>
             <aside>
-                <div class="skills">
+                <div class="skills" id="skills">
                     <img class="myPhoto" src="img/MyPhot.jpg" alt="photo">
                     <h2>Pro skills</h2>
                     <dl class="skills-list">
@@ -87,20 +100,26 @@
                     <p>Also under development Git, GitHub
                         when writing code, I use VS Code, Sublime text.
                         Understanding the BEM methodology</p>
-                    <h2>Languages</h2>
+                    <h2 id="lang">Languages</h2>
                     <ul>
                         <li>russian</li>
                         <li>english (entry level)</li>
                     </ul>
                 </div>
             </aside>
-        </main>
-    </div>
+        </div>
+    </main>
     <footer>
-        <a href="https://github.com/Sardn"> <img src="https://avatars.mds.yandex.net/i?id=3f3b6726427f8d6a1d8f188fbde151510e9f7abc-8273955-images-thumbs&n=13" alt="logo github" height="90" width="150"> </a>
-        <h2>2022</h2>
-        <a href="https://app.rs.school"> <img src="https://cdn.eventil.com/uploads/event/header_image/264758/card_original.jpg" alt="logo rsschool" height="90" width="150"> </a>
-      </footer>
+        <div class="container footer-container">
+            <a href="https://github.com/Sardn"> <img
+                    src="https://avatars.mds.yandex.net/i?id=3f3b6726427f8d6a1d8f188fbde151510e9f7abc-8273955-images-thumbs&n=13"
+                    alt="logo github" height="90" width="150"> </a>
+            <h2>2022</h2>
+            <a href="https://app.rs.school"> <img
+                    src="https://cdn.eventil.com/uploads/event/header_image/264758/card_original.jpg"
+                    alt="logo rsschool" height="90" width="150"> </a>
+        </div>
+    </footer>
 </body>
 
 </html>
