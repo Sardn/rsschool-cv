@@ -16,7 +16,8 @@
 
 <body>
     <header>
-        <div class="container">
+        <div class="container header-container">
+            <div class="theme-btn"></div>
             <nav class="nav">
                 <ul class="nav-list">
                     <li class="nav-item"><a href="#about" class="nav-link">About Me</a></li>
@@ -28,118 +29,161 @@
                     <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
                 </ul>
             </nav>
+            <div class="burger-background"></div>
+            <div class="overlay"></div>
+            <div class="burger">
+                <span class="span-line"></span>
+            </div>
         </div>
     </header>
     <main>
-        <div class="title">
-            <h1>Abyzov Aleksander</h1>
-            <i>[ Junior Frontend Developer ]</i>
-        </div>
-        <div class="container main-container">
-            <div class="about" id="about">
-                <h2>About Me</h2>
-                <p class="about-descr">
-                    <!-- Hi! I am a beginner Frontend developer. Ready to work in an office in Yekaterinburg
-                    or remotely. He started training in July 2021 and got carried away with the process. A great desire
-                    to realize yourself in production development. It is interesting how the process of creating a
-                    product is built in teams: interaction, problem solving, result. Life experience and diversity in
-                    professional activities led to a meaningful and balanced decision to devote most of his life to the
-                    field of information technology, to do it seriously and thoroughly. I like working in a team. I like
-                    to share experiences. I love development and self-improvement. My goal is to become a great
-                    developer, a professional in my field. -->
-                </p>
-                <h2 id="education">Education</h2>
-                <h3>University</h3>
-                <p>Russian Professional Pedagogical University. Faculty of Social Work.</p>
-                <h3>Courses</h3>
-                <ul>
-                    <li>HTML Academy</li>
-                    <li>GLO Academy</li>
-                    <li>MetaLamp</li>
-                    <li>Yandex Practicum basic lessons </li>
-                    <li>Udemy</li>
-                    <li>Hexlet</li>
-                </ul>
-                <h2 id="code">Example code</h2>
-                <code>
+        <div class="container">
+            <div class="title">
+                <h1>Abyzov Aleksander</h1>
+                <div class="sub-title">
+                    <span style="--i:0">[</span>
+                    <span style="--i:2">J</span>
+                    <span style="--i:3">u</span>
+                    <span style="--i:4">n</span>
+                    <span style="--i:5">i</span>
+                    <span style="--i:6">o</span>
+                    <span style="--i:7">r</span>
+                    <span style="--i:8">&nbsp;</span>
+
+                    <span style="--i:9">F</span>
+                    <span style="--i:10">r</span>
+                    <span style="--i:11">o</span>
+                    <span style="--i:12">n</span>
+                    <span style="--i:13">t</span>
+                    <span style="--i:14">e</span>
+                    <span style="--i:15">n</span>
+                    <span style="--i:16">d</span>
+                    <span style="--i:17">&nbsp;</span>
+
+                    <span style="--i:18">D</span>
+                    <span style="--i:19">e</span>
+                    <span style="--i:20">v</span>
+                    <span style="--i:21">e</span>
+                    <span style="--i:22">l</span>
+                    <span style="--i:23">o</span>
+                    <span style="--i:24">p</span>
+                    <span style="--i:25">e</span>
+                    <span style="--i:26">r</span>
+                    <span style="--i:28">]</span>
+                </div>
+                <img class="myPhoto" src="img/MyPhot.jpg" alt="photo">
+            </div>
+            <div class="main-container">
+                <div class="about" id="about">
+                    <h2>About Me</h2>
+                    <p class="about-descr"></p>
+                    <h2 id="education">Education</h2>
+                    <h3>University</h3>
+                    <p>Russian Professional Pedagogical University. Faculty of Social Work.</p>
+                    <h3>Courses</h3>
+                    <ul>
+                        <li>HTML Academy</li>
+                        <li>GLO Academy</li>
+                        <li>MetaLamp</li>
+                        <li>Yandex Practicum basic lessons </li>
+                        <li>Udemy</li>
+                        <li>Hexlet</li>
+                    </ul>
+                    <h2 id="code">Example code</h2>
+                    <code>
                     function reverse(n) {
                         let a = Math.abs(n).toString();
                         let b = a.split('').reverse().join('');
                         return b;
                     }
                 </code>
-                <h2 id="projects">My projects</h2>
-                <ul class="projects-list">
+                    <h2 id="projects">My projects</h2>
+                    <ul class="projects-list">
 
-                    <li class="project-item">
-                        <a href="https://rolling-scopes-school.github.io/sardn-JSFEPRESCHOOL2022Q4/plants/"
-                            class="project-link">
-                            <h3>Plants</h3>
-                            <img src="./img/plants.png" alt="Plants" class="project-img">
-                        </a>
-                    </li>
-                    <li class="project-item">
-                        <a href="https://sardn.github.io/KinoPoisk/?page=1" class="project-link">
-                            <h3>Kinopoisk</h3>
-                            <img src="./img/kinopoisk.png" alt="kinopoisk" class="project-img">
-                        </a>
-                    </li>
-                    <li class="project-item">
-                        <a href="https://sardn.github.io/DataWarehouse/" class="project-link">
-                            <h3>DataWarehouse</h3>
-                            <img src="./img/datawarehouse.png" alt="DataWarehouse" class="project-img">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <aside>
-                <div class="skills" id="skills">
-                    <img class="myPhoto" src="img/MyPhot.jpg" alt="photo">
-                    <h2>Pro skills</h2>
-                    <dl class="skills-list">
-                        <dt class="skill">HTML</dt>
-                        <dd class="level">
-                            <div class="graduation1"></div>
-                        </dd>
-                        <dt class="skill">CSS</dt>
-                        <dd class="level">
-                            <div class="graduation1"></div>
-                        </dd>
-                        <dt class="skill">JS</dt>
-                        <dd class="level">
-                            <div class="graduation2"></div>
-                        </dd>
-                        <dt class="skill">PHP</dt>
-                        <dd class="level">
-                            <div class="graduation3"></div>
-                        </dd>
-                        <dt class="skill">REACT</dt>
-                        <dd class="level">
-                            <div class="graduation3"></div>
-                        </dd>
-                    </dl>
-                    <p>Also under development Git, GitHub
-                        when writing code, I use VS Code, Sublime text.
-                        Understanding the BEM methodology</p>
-                    <h2 id="lang">Languages</h2>
-                    <ul>
-                        <li>russian</li>
-                        <li>english (entry level)</li>
+                        <li class="project-item">
+                            <a target="_blank"
+                                href="https://rolling-scopes-school.github.io/sardn-JSFEPRESCHOOL2022Q4/plants/"
+                                class="project-link">
+                                <h3>Plants</h3>
+                                <img src="./img/plants.png" alt="Plants" class="project-img">
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a target="_blank" href="https://sardn.github.io/KinoPoisk/?page=1" class="project-link">
+                                <h3>Kinopoisk</h3>
+                                <img src="./img/kinopoisk.png" alt="kinopoisk" class="project-img">
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a target="_blank" href="https://sardn.github.io/DataWarehouse/" class="project-link">
+                                <h3>DataWarehouse</h3>
+                                <img src="./img/datawarehouse.png" alt="DataWarehouse" class="project-img">
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a target="_blank" href="https://sardn.github.io/virtual-keyboard/" class="project-link">
+                                <h3>Virtual-keyboard</h3>
+                                <img src="./img/virtual-keyboard.png" alt="virtual-keyboard" class="project-img">
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a target="_blank" href="https://sardn.github.io/momentum/" class="project-link">
+                                <h3>Momentum</h3>
+                                <img src="./img/momentum.png" alt="momentum" class="project-img">
+                            </a>
+                        </li>
+                        <li class="project-item">
+                            <a target="_blank"
+                                href="https://rolling-scopes-school.github.io/sardn-JSFE2023Q1/minesweeper/"
+                                class="project-link">
+                                <h3>Minesweeper</h3>
+                                <img src="./img/minesweeper.png" alt="minesweeper" class="project-img">
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <h2 id="contacts">Contacts</h2>
-                <ul>
-                    <li>Phone: +7912261****</li>
-                    <li>Telegram: <a href="#">@Sard_n</a></li>
-                    <li>E-mail: <a href="#">abyzovaleksandr5@gmail.com</a></li>
-                    <li>GitHab: <a href="https://github.com/Sardn">My github</a></li>
-                    <li>Nickname on the discord server: Lexandr #2055</li>
-                </ul>
-            </aside>
+                <div class="right-block">
+                    <div class="skills" id="skills">
+                        <h2>Pro skills</h2>
+                        <div class="skills-list">
+                            <p class="skill">HTML</p>
+                            <div class="level graduation1"></div>
+                            <p class="skill">CSS</p>
+                            <div class="level graduation1"></div>
+                            <p class="skill">JS</p>
+                            <div class="level graduation2"></div>
+                            <p class="skill">PHP</p>
+                            <div class="level graduation3"></div>
+                            <p class="skill">REACT</p>
+                            <div class="level graduation3"></div>
+                        </div>
+
+                        <p>Also under development Git, GitHub
+                            when writing code, I use VS Code, Sublime text.
+                            Understanding the BEM methodology</p>
+                        <h2 id="lang">Languages</h2>
+                        <ul>
+                            <li>russian</li>
+                            <li>english (entry level)</li>
+                        </ul>
+                    </div>
+                    <h2 id="contacts">Contacts</h2>
+                    <ul>
+                        <li>Phone: +7912261****</li>
+                        <li>Telegram: <a href="#">@Sard_n</a></li>
+                        <li>E-mail: <a href="#">abyzovaleksandr5@gmail.com</a></li>
+                        <li>GitHab: <a href="https://github.com/Sardn">My github</a></li>
+                        <li>Nickname on the discord server: Lexandr #2055</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </main>
+    <div id="scrollToTop" class="btn-top">
+        <span class="top">Top</span>
+    </div>
     <footer>
-        <div class="container footer-container">
+        <div class="container footer-container ">
             <a href="https://github.com/Sardn"> <img
                     src="https://avatars.mds.yandex.net/i?id=3f3b6726427f8d6a1d8f188fbde151510e9f7abc-8273955-images-thumbs&n=13"
                     alt="logo github" height="90" width="150"> </a>
